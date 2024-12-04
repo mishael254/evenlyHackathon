@@ -1,0 +1,16 @@
+{
+    "widgetApi": [
+        {
+            "name": "landing"
+        }
+    ],
+    "widgetDescription": "",
+    "authorName": "",
+    "localFileBasePath": "",
+    "requires": [
+        {
+            "name": "global_Vue3",
+            "version": "3.3.4"
+        }
+    ]
+}
