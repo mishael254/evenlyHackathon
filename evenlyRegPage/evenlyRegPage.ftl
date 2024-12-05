@@ -1,4 +1,4 @@
-<div id="widgetVue3Template" style="margin: 20px">
+<div id="widgetVue3Template" widgetType="evenlyRegPage" style="margin: 20px">
   <!DOCTYPE html>
   <html lang="en">
     <head>

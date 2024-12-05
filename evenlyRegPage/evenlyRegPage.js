@@ -44,7 +44,12 @@ var evenlyRegPage = StudioWidgetWrapper.extend({
             googleImage: widgetBasePath + `assets/google.png`,
             faceBookImage: widgetBasePath + `assets/facebook.png`,
             logoImage: widgetBasePath + `assets/logo.svg`,
+
+            FormData: {
+              email
+            }
           };
+
           // creating endpoints to intergrate with the sign up form
           const endpoints = [
             {
@@ -56,6 +61,8 @@ var evenlyRegPage = StudioWidgetWrapper.extend({
           ];
         },
       }).mount($("#widgetVue3Template", elem)[0]);
+
+
     }
 
     /*

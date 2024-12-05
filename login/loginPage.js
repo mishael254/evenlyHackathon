@@ -49,7 +49,11 @@ var loginPage = StudioWidgetWrapper.extend(
             Vue.createApp({
 				data() {
 					return {
-                        name: widgetProperties.parama || "Bingo Studio"
+                        name: widgetProperties.parama || "Bingo Studio",
+                        passwordImage: widgetBasePath + `assets/password.svg`,
+                        emailImage: widgetBasePath + `assets/email.svg`,
+                        logoImage: widgetBasePath + `assets/logo.svg`,
+
                     }
 				}
 			}).mount($("#widgetVue3Template",elem)[0]);
